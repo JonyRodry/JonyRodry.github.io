@@ -152,13 +152,13 @@ function init(){
 		var inimigosMedium = ev.inimigosMedium;
 		var inimigosHard = ev.inimigosHard;
 		if(localStorage._difficulty == 1){
-			document.getElementById("dificuldade").src = "../resources/info/easy.png";
+			document.getElementById("dificuldade").src = "../resources/Info/easy.png";
 		}
 		else if (localStorage._difficulty == 2) {
-			document.getElementById("dificuldade").src = "../resources/info/normal.png";
+			document.getElementById("dificuldade").src = "../resources/Info/normal.png";
 		}
 		else{
-			document.getElementById("dificuldade").src = "../resources/info/hard.png";
+			document.getElementById("dificuldade").src = "../resources/Info/hard.png";
 		}
 		towerGame = new Game(inimigosEasy, inimigosMedium, inimigosHard, canvas);
 		window.setTimeout(animation, 100/30);
