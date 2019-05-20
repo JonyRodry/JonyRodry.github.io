@@ -1,0 +1,197 @@
+body{
+	margin: 4px;
+}
+/*#back{
+	display: block;
+	margin:	auto;
+	width:25%;
+	height:25%;
+}*/
+#title{
+	position:absolute;
+	top:12%;
+	left:39.93%;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	word-spacing: 10px;
+	line-height: 60px;
+	font-family:"Comic sans MS";
+}
+#game{
+	cursor: pointer;
+	position: absolute;
+	font-family:"Comics Sans MS", cursive, sans-serif;
+	font-size: 24px;
+	border-radius: 6px;
+	border-color: black;
+	background-color: orange;
+	top:45.73%;
+	left:41.73%;
+	height:6.33%;
+	width: 16.053%;
+}
+#options{
+	cursor: pointer;
+	position: absolute;
+	font-family:"Comics Sans MS", cursive, sans-serif;
+	font-size: 24px;
+	border-radius: 6px;
+	border-color: black;
+	background-color: orange;
+	top:53.68%;
+	left:41.73%;
+	height: 6.33%;
+	width: 16.03%;
+}
+#controls{
+	cursor: pointer;
+	position: absolute;
+	font-family:"SF Slapstick Bold", cursive, sans-serif;
+	font-size: 24px;
+	background-color: orange;
+	border-radius: 6px;
+	border-color: black;
+	top:61.58%;
+	left:41.78%;
+	height:6.23%;
+	width: 15.93%;
+}
+#credits{
+	cursor: pointer;
+	position: absolute;
+	font-family:"Comics Sans MS", cursive, sans-serif;
+	font-size: 24px;
+	border-radius: 6px;
+	border-color: black;
+	background-color: orange;
+	top:69.43%;
+	left:41.73%;
+	height:6.33%;
+	width: 16.03%;
+}
+#back{
+	cursor:pointer;
+	position:absolute;
+	font-size: 24px;
+	background-color: orange;
+	border-radius: 6px;
+	border-color: black;
+	top:67.58%;
+	left:43.78%;
+	height:6.23%;
+	width: 10.93%
+}
+#sound{
+	position:absolute;
+	top:10%;
+	left:44.93%;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	word-spacing: 10px;
+	line-height: 60px;
+	font-family:"Comic sans MS";
+}
+#soundFx{
+	position:absolute;
+	top:30%;
+	left:42.33%;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	word-spacing: 10px;
+	line-height: 60px;
+	font-family:"Comic sans MS";
+}
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: absolute;
+  top:27%;
+  left: 45.23%;
+  display: inline-block;
+  width: 138.46px;
+  height: 65.4px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 54px;
+  width: 54px;
+  left: 5px;
+  bottom: 6px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(75px);
+  -ms-transform: translateX(75px);
+  transform: translateX(75px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#soundFxSld{
+  position: absolute;
+  top:46%;
+  left: 45.23%;
+  display: inline-block;
+  width: 138.46px;
+  height: 65.4px;	
+}
+
+
+#imagem{
+	position: absolute;
+	top:8%;
+	left:31%;
+}
+
+
+

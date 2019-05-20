@@ -1,0 +1,47 @@
+body{
+	margin:0px;
+	margin-top: 100px;
+	background-color: #939693;
+}
+
+#skip{
+	cursor:pointer;
+	position:absolute;
+	font-size: 24px;
+	background-color: orange;
+	border-radius: 6px;
+	border-color: black;
+	top:77%;
+	left:43%;
+	height:8.23%;
+	width: 14.93%
+}
+
+section{
+	color: black;
+	text-align: center;
+	position:absolute;
+	left: 43%;
+	top: 70%; /*25px*/
+	width: 15%;
+	height: 50px; /*340px;*/
+	overflow: hidden;
+	animation: showCredits linear 10s;
+}
+
+@keyframes showCredits{
+	72% {height: 350px; top: 125px;}
+	80% {height: 350px; top: 100px;}
+	100% {height: 350px; top: 100px;}
+}
+
+h1{
+	font: bold 28px Helvetica;
+}
+
+h2{
+	font:bold 28px Helvetica;
+}
+p{
+	font: 20px Helvetica;
+}

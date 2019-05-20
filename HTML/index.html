@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Battle for Approval</title>
+		<script src="../code/jsvetor.js" type="text/javascript"></script>
+		<script src="../code/game.js" type="text/javascript"></script>
+		<script src="../code/towers.js" type="text/javascript"></script>
+		<script src="../code/shots.js" type="text/javascript"></script>
+		<script src="../code/enemy.js" type="text/javascript"></script>
+		<script src="../code/cell.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	</head>
+	<body>
+		<audio id="som1" loop>
+			<source src="../resources/Audio/Vingadores.mp3" type="audio/mp3">
+		</audio>
+		<audio id="som2">
+			<source src="../resources/Audio/winMusic.mp3" type="audio/mp3">
+		</audio>
+		<audio id="som3">
+			<source src="../resources/Audio/death.mp3" type="audio/mp3">
+		</audio>
+		<audio id="som4" loop>
+			<source src="../resources/Audio/BattleMusicGustavo.mp3" type="audio/mp3">
+		</audio>
+		<audio id="som5">
+			<source src ="../resources/Audio/defeatMusic.mp3" type="audio/mp3">
+		</audio>
+		<div id = "wrapperDic">
+			<div id = "infoDiv">
+				<div id = "infoNameDiv"><img src = "../resources/Info/moedas.png" width="40" height="50"><p id="gold">250</p></div>
+				<div id = "infoNameDiv"><img src = "../resources/Info/heart.png" width="40" height="50"><p id="lives"></p></div>
+				<div id = "infoNameDiv"><img id = "dificuldade" width = "40" height="40"><p id = "ronda"><p id="enemyText"></p></div>
+				<button id="menu"><img src="../resources/Info/buttonPause.png"></button>
+			</div>
+			<div id = "canvasDiv">
+				<div id ="state"><button id ="startGame" width="100px" height="100px" ><img src="../resources/info/Icon_23-512.png" width="100px" height="100px"></button><br>-Press the button to start-</br></div>
+				<div id = "popUpMenu">
+					<div id = "popUpMainDiv">
+						<p>Menu</p>
+						<button id = "continue">Continue</button>
+						<button id = "mainMenu">Main Menu</button>
+						<button id = "levelSelect">Level Selector</button>
+						<button id = "audio"><img id="imagem" src="../resources/Info/565-512.png"></button>
+					</div>
+				</div>
+				<canvas id = "canvas" width = "800" height = "600" ></canvas>
+			</div>
+			<div id = "menuDiv"></div>
+		</div>
+	</body>
+</html>

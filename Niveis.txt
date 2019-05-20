@@ -1,0 +1,159 @@
+this.enemeisNivel = [[5, 10, 15, 25, 50], [10, 20, 30, 45, 75], [15, 20, 25, 50, 100]];
+
+
+Nº Inicial de Moedas: 250
+
+#### Nivel 1
+
+Independente da Dificuldade
+
+Rondas: 5 
+Por matar Inimigo: +10 moedas
+Damage das Balas: 1(1-5), 2(5-10), 3(10-15), 4(15-20)
+Preço das Torres: 1(70), 2(90), 3(110), 4(150)
+
+- Facil 
+Num Inimigos: 3 + 3 por Ronda
+Vida Enimigos: 1(10Hp), 2(15Hp), 3(20Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Médio
+Num Inimigos: 5 + 5 por Ronda
+Vida Enimigos: 1(20Hp), 2(25Hp), 3(30Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Dificil
+Num Inimigos: 7 + 7 por Ronda
+Vida Enimigos: 1(30Hp), 2(40Hp), 3(50Hp)
+Velocidade dos Inimigos: A ver ...
+
+#### Nivel 2
+
+Independente da Dificuldade
+
+Rondas: 10
+Por matar Inimigo: +20 moedas 
+Upgrade das Torres e das Balas
+Damage das Balas: 1(1-7), 2(7-15), 3(15-22), 4(22-30)
+Preço das Torres: 1(100), 2(120), 3(140), 4(180) 
+
+- Facil 
+Num Inimigos: 5 + 5 por Ronda
+Vida Enimigos: 1(15Hp), 2(20Hp), 3(25Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Médio
+Num Inimigos: 7 + 7 por Ronda
+Vida Enimigos: 1(25Hp), 2(30Hp), 3(35Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Dificil
+Num Inimigos: 9 + 9 por Ronda
+Vida Enimigos: 1(35Hp), 2(45Hp), 3(55Hp)
+Velocidade dos Inimigos: A ver ...
+
+#### Nivel 3
+
+Independente da Dificuldade
+
+Rondas: 15
+Por matar Inimigo: +20 moedas
+Damage das Balas: 1(1-7), 2(7-15), 3(15-22), 4(22-30)
+Preço das Torres: 1(100), 2(120), 3(140), 4(180) 
+
+- Facil
+Num Inimigos: 7 + 7 por Ronda 
+Vida Enimigos: 1(20Hp), 2(25Hp), 3(30Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Médio
+Num Inimigos: 9 + 9 por Ronda
+Vida Enimigos: 1(30Hp), 2(35Hp), 3(40Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Dificil
+Num Inimigos: 11 + 1 por Ronda
+Vida Enimigos: 1(40Hp), 2(50Hp), 3(60Hp)
+Velocidade dos Inimigos: A ver ...			
+
+#### Nivel 4
+
+Independente da Dificuldade
+
+Rondas: 20 
+Por matar Inimigo: +30 moedas
+Upgrade das Torres e das Balas
+Damage das Balas: 1(1-12), 2(12-20), 3(20-32), 4(32-40)
+Preço das Torres: 1(200), 2(220), 3(240), 4(280) 
+
+- Facil 
+Num Inimigos: 9 + 9 por Ronda
+Vida Enimigos: 1(25Hp), 2(30Hp), 3(35Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Médio
+Num Inimigos: 11 + 11 por Ronda
+Vida Enimigos: 1(35Hp), 2(40Hp), 3(45Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Dificil
+Num Inimigos: 13 + 13 por Ronda
+Vida Enimigos: 1(45Hp), 2(55Hp), 3(65Hp)
+Velocidade dos Inimigos: A ver ...	
+
+#### Nivel 5
+
+Independente da Dificuldade
+
+Rondas: 25
+Por matar Inimigo: +30 moedas
+Damage das Balas: 1(1-12), 2(12-20), 3(20-32), 4(32-40)
+Preço das Torres: 1(200), 2(220), 3(240), 4(280) 
+
+- Facil
+Num Inimigos: 11 + 11 por Ronda
+Vida Enimigos: 1(30Hp), 2(35Hp), 3(40Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Médio
+Num Inimigos: 13 + 13 por Ronda
+Vida Enimigos: 1(40Hp), 2(45Hp), 3(50Hp)
+Velocidade dos Inimigos: A ver ...
+
+- Dificil
+Num Inimigos: 15 + 15 por Ronda
+Vida Enimigos: 1(50Hp), 2(60Hp), 3(70Hp)
+Velocidade dos Inimigos: A ver ...	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,285 @@
+body{
+	background-color: #939693;
+}
+#menu{
+	background-color: transparent;
+	margin-left:3%;
+	margin-top:1%;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+#menu img{
+	width: 60px;
+	height: 60px;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+#startGame{
+	margin-top: 100px;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+}
+
+#state{
+	margin-left: 500px;
+}
+
+#wrapperDiv{
+	background-color: green;
+	width: 1000px;
+	height: 750px;
+	border: solid black 2px;
+	margin: auto;
+}
+
+#infoDiv{
+	margin-left: 500px;
+	margin-top: 100px;
+	background-color: black;
+	width: 950px;
+	height: 100px;
+	text-align: center;
+}
+
+#menuDiv{
+	background-color: #b5b8bc;
+	width: 150px;
+	height: 600px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#canvas{
+	position: fixed;
+	z-index:0;
+}
+#canvasDiv{
+	margin-left: 500px;
+	z-index: 0;
+	background-color: lightgreen;
+	width: 800px;
+	height: 600px;
+	float: left;
+}
+
+#infoNameDiv{
+	background-color: #DDD;
+	width: 80px;
+	height: 60px;
+	border-radius: 25%;
+	float: left;
+	margin-left: 16%;
+	margin-top: 10px;
+	padding-top: 15px;
+	font-family: Arial, Helvetica;
+	font-size: 15pt;
+}
+
+#infoNameDiv img{
+	margin-top: -15px;
+}
+#infoNameDiv p{
+	margin-top: -12px;
+	font-size: 15px;
+	font-family: OCR A Std, monospace;
+}
+
+.menuTilesDiv{
+	background-color: white;
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-left: 19%;
+	margin-top: 38px;
+	border: solid red;
+}
+
+#TowerImgDiv0{
+	background-color: #DDD;
+	border: solid brown;
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 35px;
+
+}
+
+#TowerImgDiv1{
+	background-color: #DDD;
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 35px;
+	border: solid brown;
+}
+
+#TowerImgDiv2{
+	background-color: #DDD;
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 35px;
+	border: solid brown;
+}
+
+#TowerImgDiv3{
+	background-color: #DDD;
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 35px;
+	border: solid brown;
+}
+
+#TowerImgDiv0 img{
+	margin-top: 20px;
+	margin-left: -43px;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#TowerImgDiv1 img{
+	margin-top: 20px;
+	margin-left: -43px;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#TowerImgDiv2 img{
+	margin-top: 20px;
+	margin-left: -47px;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+
+}
+
+#TowerImgDiv3 img{
+	margin-top: 20px;
+	margin-left: -50px;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+
+}
+
+#state{
+	position: fixed;
+	top:580px;
+	left:10px;
+	z-index: 1;
+}
+#state p{
+	font-size: 40px;
+	font-style: sans-serif;
+}
+
+
+#popUpMenu{
+	margin-top: 94px;
+	margin-left: 500px;
+	position: fixed;
+	display: none;
+	top:106px;
+	left:8px;
+	z-index:1;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 800px;
+	height: 600px;
+}
+
+#popUpMainDiv{
+	margin-left: 450px;
+	position: fixed;
+	width: 200px;
+	height:300px;
+	border:2px solid black;
+	border-radius: 5px;
+	background-color: orange;
+	left:20%;
+	top:36%;
+}
+
+#continue{
+	position: absolute;
+	width:120px;
+	height: 40px;
+	background-color: #DDD;
+	border: 3px solid;
+	margin:none;
+	left:20%;
+	top:28%;
+	cursor: pointer;
+}
+
+#levelSelect{
+	position: absolute;
+	width:120px;
+	height: 40px;
+	background-color: #DDD;
+	border: 3px solid;
+	margin:none;
+	left:20%;
+	top:45%;
+	cursor: pointer;
+}
+
+#mainMenu{
+	position: absolute;
+	width:120px;
+	height: 40px;
+	background-color: #DDD;
+	border: 3px solid;
+	margin:none;
+	left:20%;
+	top:62%;
+	cursor: pointer;
+}
+
+#audio{
+	background-color: transparent;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	position: absolute;
+	top:83%;
+	right:6%;
+	height: 50px;
+	width: 50px;
+}
+
+#audio img{
+	height: 50px;
+	width: 50px;
+}
+
+#popUpMainDiv p{
+	position: absolute;
+	left:33%;
+	top:0%;
+	font-size: 30px;
+	font-style: sans-serif;
+}
+#play{
+	height: 50px;
+	width: 50px;
+}
+
+
+#play img{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left:33%;
+	top:0%;
+	font-size: 30px;
+	font-style: sans-serif;
+}
+
+#enemyText{
+	margin-top: -5px;
+}

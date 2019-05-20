@@ -1,0 +1,153 @@
+body{
+	margin:0px;
+	margin-top: 100px;
+	background-color: #939693;
+}
+
+#reset{
+	top: 13%;
+	left: 20%;
+	cursor: pointer;
+	position: absolute;
+	font-stretch: 24px;
+	background-color: orange;
+	border-radius: 6px;
+	border-color: black;
+	margin-left: 100px; 
+	width: 5%;
+	height: 4%;
+
+}
+#back{
+	cursor:pointer;
+	position:absolute;
+	font-size: 24px;
+	background-color: orange;
+	border-radius: 6px;
+	border-color: black;
+	top:77%;
+	left:43%;
+	height:8.23%;
+	width: 14.93%
+}
+
+#levels{
+	position:absolute;
+	top:7%;
+	left:41.5%;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	word-spacing: 10px;
+	line-height: 60px;
+	font-family:"Comic sans MS";
+}
+#lvl_1{
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	margin:0px;
+	padding: 0;
+	border:none;
+	font-size: 20px;
+	font-family:"Comic sans MS";
+	position: absolute;
+	top:27%;
+	left:27%;
+	color: orange;
+	font-weight: bold;
+}
+#lvl_1 img{
+	display: block;
+	height: 140px;
+	width: 170px;
+}
+#lvl_2{
+	background-color: transparent;
+	outline: none;
+	margin:0px;
+	padding: 0;
+	border:none;
+	font-size: 20px;
+	font-family:"Comic sans MS";
+	margin:0px;
+	padding: 0;
+	position: absolute;
+	top:27%;
+	left:45.5%;
+	color: orange;
+	font-weight: bold;
+}
+#lvl_2 img{
+	filter: blur(12px);
+	display: block;
+	height: 140px;
+	width: 170px;
+}
+#lvl_3{
+	background-color: transparent;
+	outline: none;
+	margin:0px;
+	padding: 0;
+	border:none;
+	font-size: 20px;
+	font-family:"Comic sans MS";
+	margin:0px;
+	padding: 0;
+	position: absolute;
+	top:27%;
+	left:65%;
+	color: orange;
+	font-weight: bold;
+}
+#lvl_3 img{
+	filter: blur(12px);
+	display: block;
+	height: 140px;
+	width: 170px;
+}
+#lvl_4{
+	background-color: transparent;
+	outline: none;
+	margin:0px;
+	padding: 0;
+	border:none;
+	font-size: 20px;
+	font-family:"Comic sans MS";
+	margin:0px;
+	padding: 0;
+	position: absolute;
+	top:50%;
+	left:36.5%;
+	color: orange;
+	font-weight: bold;
+}
+#lvl_4 img{
+	filter: blur(12px);
+	display: block;
+	height: 140px;
+	width: 170px;
+}
+#lvl_5{
+	background-color: transparent;
+	outline: none;
+	margin:0px;
+	padding: 0;
+	border:none;
+	font-size: 20px;
+	font-family:"Comic sans MS";
+	margin:0px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 55.5%;
+	color: orange;
+	font-weight: bold;
+}
+#lvl_5 img{
+	background-color: transparent;
+	filter: blur(12px);
+	display: block;
+	height: 140px;
+	width: 170px;
+}
