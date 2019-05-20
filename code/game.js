@@ -167,6 +167,7 @@ function init(){
 
 function goldGenerator(ev){
 	towerGame.moedas = towerGame.moedas + 1; 
+	//
 	var money = document.getElementById("gold");
 	money.innerHTML = towerGame.moedas;
 }
