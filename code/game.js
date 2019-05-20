@@ -381,7 +381,7 @@ class Game{
 
 		this.moedas = 250;
 		this.moedasInimigo = 0;
-		this.vidas = Math.floor(this.enemiesNivel[parseInt(localStorage._difficulty)-1][parseInt(localStorage._currentLevel)-1]/2);
+		this.vidas = Math.floor(Math.round((this.enemiesNivel[localStorage._difficulty-1][localStorage._currentLevel-1])/2);
 
 		this.placingTower = false;
 		this.isRunning = true;
