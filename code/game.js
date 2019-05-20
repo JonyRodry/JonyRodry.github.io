@@ -166,7 +166,7 @@ function init(){
 }
 
 function goldGenerator(ev){
-	towerGame.moedas++;
+	towerGame.moedas = towerGame.moedas + 1; 
 	var money = document.getElementById("gold");
 	money.innerHTML = towerGame.moedas;
 }
@@ -344,10 +344,10 @@ function wonGame(){
 }
 
 function startingLevel(){
-					gameState = "play";
-					document.getElementById("state").innerHTML = null;
-					goldInterval = setInterval(goldGenerator,1500);
-					enemyGen = setInterval(loadEnemies,2000);
+	gameState = "play";
+	document.getElementById("state").innerHTML = null;
+	goldInterval = setInterval(goldGenerator,1500);
+	enemyGen = setInterval(loadEnemies,2000);
 }
 
 var verif;
